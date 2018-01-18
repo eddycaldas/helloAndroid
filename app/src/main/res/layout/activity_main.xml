@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.helloandroid.MainActivity">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <ImageView
+        android:src='@drawable/image'
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:paddingBottom="40dp"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width='wrap_content'
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text='Udacity'
+        android:paddingLeft="20dp" />
+    <TextView
+        android:layout_width='wrap_content'
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text='650-555-5555'
+        android:paddingLeft="20dp" />
+    <TextView
+        android:layout_width='wrap_content'
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text='www.udacity.com'
+        android:paddingLeft="20dp" />
+    <TextView
+        android:layout_width='wrap_content'
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text='2465 Lathan St, Mounmtain View, CA 94043'
+        android:paddingLeft="20dp" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+</LinearLayout>
